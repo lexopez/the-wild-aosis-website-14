@@ -1,5 +1,9 @@
 import Filter from "../_components/Filter";
 
+export const metadata = {
+  title: "Cabins",
+};
+
 export default function Page() {
   return (
     <div>
