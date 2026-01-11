@@ -1,3 +1,4 @@
+import CabinList from "../_components/CabinList";
 import Filter from "../_components/Filter";
 
 export const metadata = {
@@ -22,6 +23,7 @@ export default function Page() {
       <div className="flex justify-en mb-8">
         <Filter />
       </div>
+      <CabinList />
     </div>
   );
 }
