@@ -27,7 +27,7 @@ const navLinks = [
   },
 ];
 
-function SideNavigation() {
+function SideNavigation({ children }) {
   const pathname = usePathname();
   return (
     <nav className="border-r border-primary-900">
@@ -45,8 +45,7 @@ function SideNavigation() {
             </Link>
           </li>
         ))}
-
-        <li className="mt-auto">{/* <SignOutButton /> */}</li>
+        {children}
       </ul>
     </nav>
   );
