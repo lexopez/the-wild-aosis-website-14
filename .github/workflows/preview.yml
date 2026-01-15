@@ -6,6 +6,10 @@ env:
   VERCEL_PROJECT_NAME: ${{ secrets.VERCEL_PROJECT_NAME }}
   SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
   SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+  NEXTAUTH_URL: ${{secrets.NEXTAUTH_URL}}
+  NEXTAUTH_SECRET: ${{secrets.NEXTAUTH_SECRET}}
+  AUTH_GOOGLE_ID: ${{secrets.AUTH_GOOGLE_ID}}
+  AUTH_GOOGLE_SECRET: ${{secrets.AUTH_GOOGLE_SECRET}}
 
 on:
   push:
