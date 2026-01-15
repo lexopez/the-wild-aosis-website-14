@@ -1,12 +1,8 @@
-"use client";
-
-import { useState } from "react";
 import { updateGuest } from "../_lib/actions";
+import SelectCountry from "./SelectCountry";
 import SubmitButton from "./SubmitButton";
 
-function UpdateProfileForm({ guest, children }) {
-  const [count, setCount] = useState();
-
+function UpdateProfileForm({ guest }) {
   const { fullName, email, nationality, nationalID, countryFlag } = guest;
 
   return (
@@ -44,7 +40,12 @@ function UpdateProfileForm({ guest, children }) {
           />
         </div>
 
-        {children}
+        <SelectCountry
+          name="nationality"
+          id="nationality"
+          className="px-5 py-3 bg-primary-200 text-primary-800 w-full shadow-sm rounded-sm"
+          defaultCountry={nationality}
+        />
       </div>
 
       <div className="space-y-2">
