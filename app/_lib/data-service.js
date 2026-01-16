@@ -123,3 +123,18 @@ export async function getBookings(guestId) {
 
   return data;
 }
+
+export async function getBooking(id) {
+  const { data, error, count } = await supabase
+    .from("bookings")
+    .select("*")
+    .eq("id", id)
+    .single();
+
+  if (error) {
+    console.error(error);
+    throw new Error("Booking could not get loaded");
+  }
+
+  return data;
+}
