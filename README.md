@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌲 The Wild Oasis
 
-## Getting Started
+A modern **Next.js** web application for discovering and booking luxury cabins in nature. _The Wild Oasis_ blends a calm, premium aesthetic with fast performance, server-first rendering, and a clean user experience.
 
-First, run the development server:
+🔗 **Live Demo:** [https://the-wild-aosis-website-14.vercel.app/](https://the-wild-aosis-website-14.vercel.app/)
+
+---
+
+## ✨ Features
+
+- 🏕️ **Luxury cabin listings** with beautiful hero imagery
+- ⚡ **Next.js App Router** (Server & Client Components)
+- 🗓️ **Date-based availability logic** (booking-friendly UI)
+- 🔐 **Authentication-ready architecture** (Auth.js / NextAuth compatible)
+- 🎨 **Modern UI** with responsive layout
+- 🚀 **Optimized performance** using server actions and streaming
+- ☁️ **Deployed on Vercel**
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 14+
+- **Language:** JavaScript / TypeScript
+- **Styling:** CSS Modules / Global CSS
+- **Backend:** Server Actions (App Router)
+- **Database:** Supabase (PostgreSQL)
+- **Auth:** Auth.js (NextAuth)
+- **Deployment:** Vercel
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/lexopez/the-wild-aosis-website-14.git
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+---
+
+### 4️⃣ Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🧠 Key Concepts Used
 
-## Learn More
+- **Server Components by default** for better performance
+- **Client Components only when necessary** (forms, interactivity)
+- **Optimistic UI updates** for booking actions
+- **Colocated data fetching** using server actions
+- **Clean separation of concerns** (`_lib`, `_components`)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧪 Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+npm run dev     # Start development server
+npm run build   # Build for production
+npm run start   # Start production server
+npm run lint    # Run ESLint
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧩 Future Improvements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- 💳 Online payments (Stripe)
+- 📅 Full booking management dashboard
+- 🌍 Internationalization (i18n)
+- ⭐ Reviews & ratings
+- 🧾 Email notifications
+
+---
