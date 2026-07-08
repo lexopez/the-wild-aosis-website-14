@@ -53,6 +53,8 @@ The project complements **The Wild Oasis Admin App** by focusing on the customer
 
 🔗 **Live Demo:** [https://the-wild-aosis-website-14.vercel.app/](https://the-wild-aosis-website-14.vercel.app/)
 
+<img width="1903" height="946" alt="image" src="https://github.com/user-attachments/assets/427bc98c-ee5e-4c4b-8ac6-fe36873753a9" />
+
 ---
 
 ## 🚀 Getting Started
