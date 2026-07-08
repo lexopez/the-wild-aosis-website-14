@@ -1,32 +1,57 @@
-# 🌲 The Wild Oasis
 
-A modern **Next.js** web application for discovering and booking luxury cabins in nature. _The Wild Oasis_ blends a calm, premium aesthetic with fast performance, server-first rendering, and a clean user experience.
+# The Wild Oasis Website
+
+A full-stack hotel booking website recreated from Jonas Schmedtmann’s Next.js course. This application serves as the customer-facing platform of The Wild Oasis, allowing users to browse cabins, create reservations, manage bookings, and interact with a hotel booking experience built with modern Next.js patterns.
+
+> **Note**
+> This project was recreated as part of a hands-on learning project by following Jonas Schmedtmann’s Next.js course. It serves as a portfolio project demonstrating my understanding of building a modern booking platform with Next.js, authentication, server actions, and customer-facing reservation workflows.
+
+---
+
+## Overview
+
+The Wild Oasis Website is the public-facing booking platform for hotel guests. It allows users to browse available cabins, view accommodation details, sign in, reserve stays, and manage their bookings.
+
+The project complements **The Wild Oasis Admin App** by focusing on the customer experience side of the system, using modern Next.js full-stack features such as App Router, server actions, dynamic routes, and server-side rendering.
+
+---
+
+## Features
+
+- Browse available cabins
+- View cabin details and pricing
+- User authentication
+- Reservation booking flow
+- Manage guest reservations
+- Protected account pages
+- Dynamic routing for cabin pages
+- Server-side rendering and data fetching
+- Responsive booking-focused UI
+- Integration with backend booking data
+
+---
+
+## Tech Stack
+
+### Frontend / Full Stack
+- Next.js
+- React
+- JavaScript
+- Tailwind CSS
+
+### Backend / Services
+- Supabase
+- Supabase Authentication
+- Supabase Database / API
+
+### Other Tools / Libraries
+- Server Actions
+- App Router
+- Dynamic Routing
+
+---
 
 🔗 **Live Demo:** [https://the-wild-aosis-website-14.vercel.app/](https://the-wild-aosis-website-14.vercel.app/)
-
----
-
-## ✨ Features
-
-- 🏕️ **Luxury cabin listings** with beautiful hero imagery
-- ⚡ **Next.js App Router** (Server & Client Components)
-- 🗓️ **Date-based availability logic** (booking-friendly UI)
-- 🔐 **Authentication-ready architecture** (Auth.js / NextAuth compatible)
-- 🎨 **Modern UI** with responsive layout
-- 🚀 **Optimized performance** using server actions and streaming
-- ☁️ **Deployed on Vercel**
-
----
-
-## 🛠️ Tech Stack
-
-- **Framework:** Next.js 14+
-- **Language:** JavaScript / TypeScript
-- **Styling:** CSS Modules / Global CSS
-- **Backend:** Server Actions (App Router)
-- **Database:** Supabase (PostgreSQL)
-- **Auth:** Auth.js (NextAuth)
-- **Deployment:** Vercel
 
 ---
 
@@ -56,16 +81,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🧠 Key Concepts Used
-
-- **Server Components by default** for better performance
-- **Client Components only when necessary** (forms, interactivity)
-- **Optimistic UI updates** for booking actions
-- **Colocated data fetching** using server actions
-- **Clean separation of concerns** (`_lib`, `_components`)
-
----
-
 ## 🧪 Scripts
 
 ```bash
@@ -85,4 +100,3 @@ npm run lint    # Run ESLint
 - ⭐ Reviews & ratings
 - 🧾 Email notifications
 
----
